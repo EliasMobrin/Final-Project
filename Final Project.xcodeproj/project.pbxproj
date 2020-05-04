@@ -15,6 +15,11 @@
 		D33127EE245DED7900E0CB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33127EC245DED7900E0CB4C /* LaunchScreen.storyboard */; };
 		D33127F9245DED7900E0CB4C /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33127F8245DED7900E0CB4C /* Final_ProjectTests.swift */; };
 		D3312804245DED7900E0CB4C /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3312803245DED7900E0CB4C /* Final_ProjectUITests.swift */; };
+		D3312812245E038300E0CB4C /* Team1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3312811245E038300E0CB4C /* Team1ViewController.swift */; };
+		D3312814245E039700E0CB4C /* Team2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3312813245E039700E0CB4C /* Team2ViewController.swift */; };
+		D3312816245E03B400E0CB4C /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3312815245E03B400E0CB4C /* SummaryViewController.swift */; };
+		D3312818245E083600E0CB4C /* ManagementTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3312817245E083600E0CB4C /* ManagementTabBarController.swift */; };
+		D331281A245F44C000E0CB4C /* Team1sViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3312819245F44C000E0CB4C /* Team1sViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D33127FF245DED7900E0CB4C /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3312803245DED7900E0CB4C /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		D3312805245DED7900E0CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3312811245E038300E0CB4C /* Team1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team1ViewController.swift; sourceTree = "<group>"; };
+		D3312813245E039700E0CB4C /* Team2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team2ViewController.swift; sourceTree = "<group>"; };
+		D3312815245E03B400E0CB4C /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		D3312817245E083600E0CB4C /* ManagementTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementTabBarController.swift; sourceTree = "<group>"; };
+		D3312819245F44C000E0CB4C /* Team1sViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team1sViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				D33127E3245DED7700E0CB4C /* SceneDelegate.swift */,
 				D33127E5245DED7700E0CB4C /* ViewController.swift */,
 				D33127E7245DED7700E0CB4C /* Main.storyboard */,
+				D3312819245F44C000E0CB4C /* Team1sViewController.swift */,
+				D3312817245E083600E0CB4C /* ManagementTabBarController.swift */,
+				D3312811245E038300E0CB4C /* Team1ViewController.swift */,
+				D3312813245E039700E0CB4C /* Team2ViewController.swift */,
+				D3312815245E03B400E0CB4C /* SummaryViewController.swift */,
 				D33127EA245DED7900E0CB4C /* Assets.xcassets */,
 				D33127EC245DED7900E0CB4C /* LaunchScreen.storyboard */,
 				D33127EF245DED7900E0CB4C /* Info.plist */,
@@ -260,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33127E6245DED7700E0CB4C /* ViewController.swift in Sources */,
+				D3312818245E083600E0CB4C /* ManagementTabBarController.swift in Sources */,
+				D3312814245E039700E0CB4C /* Team2ViewController.swift in Sources */,
 				D33127E2245DED7700E0CB4C /* AppDelegate.swift in Sources */,
 				D33127E4245DED7700E0CB4C /* SceneDelegate.swift in Sources */,
+				D3312812245E038300E0CB4C /* Team1ViewController.swift in Sources */,
+				D3312816245E03B400E0CB4C /* SummaryViewController.swift in Sources */,
+				D331281A245F44C000E0CB4C /* Team1sViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
